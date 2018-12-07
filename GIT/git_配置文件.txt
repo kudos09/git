@@ -1,0 +1,37 @@
+#git配置文件
+adb logcat | grep VERSION --color=auto
+git config --global user.name jianmin.zhang
+git config --global user.email jianmin.zhang@unisoc.com
+git config --list
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.diff auto
+git config --global color.branch auto
+git config --global color.interactive auto
+
+git config --global core.quotepath false
+git config --global gui.encoding utf-8
+git config --global i18n.commit.encoding utf-8
+git config --global i18n.logoutputencoding utf-8
+
+git config --global core.autocrlf false
+git config --global core.saftcrlf true
+
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.co checkout
+git config --global alias.br branch
+
+git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin '$*'"
+ 
+
+////加入user/name/.bash_profile 最后
+export GREP_OPTIONS='--color=auto' GREP_COLOR='31'   
+alias aaaa="'C:\Program Files (x86)\Notepad++\notepad++.exe'"    可以aaaa xxx.txt打开文件到notepad++
+
+python --version
+pip list
+winpty python
+python -i
+
+git config --list
